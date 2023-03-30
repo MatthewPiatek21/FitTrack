@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		444CB0AD29C24177004527FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444CB0AC29C24177004527FF /* AppDelegate.swift */; };
+		444CB0AF29C24177004527FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444CB0AE29C24177004527FF /* SceneDelegate.swift */; };
+		444CB0B129C24177004527FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444CB0B029C24177004527FF /* ViewController.swift */; };
+		444CB0B429C24177004527FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444CB0B229C24177004527FF /* Main.storyboard */; };
+		444CB0B629C24178004527FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 444CB0B529C24178004527FF /* Assets.xcassets */; };
+		444CB0B929C24178004527FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444CB0B729C24178004527FF /* LaunchScreen.storyboard */; };
+		444CB0C429C24178004527FF /* FitTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444CB0C329C24178004527FF /* FitTrackTests.swift */; };
+		444CB0CE29C24178004527FF /* FitTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444CB0CD29C24178004527FF /* FitTrackUITests.swift */; };
+		444CB0D029C24178004527FF /* FitTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444CB0CF29C24178004527FF /* FitTrackUITestsLaunchTests.swift */; };
+		446C83A329C3CB790000ECE3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446C83A129C3CB790000ECE3 /* ProfileViewController.swift */; };
+		446C83A429C3CB790000ECE3 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 446C83A229C3CB790000ECE3 /* ProfileViewController.xib */; };
+		446C83A729C3CF5C0000ECE3 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446C83A529C3CF5C0000ECE3 /* ProgressViewController.swift */; };
+		446C83A829C3CF5C0000ECE3 /* ProgressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 446C83A629C3CF5C0000ECE3 /* ProgressViewController.xib */; };
+		446C83B729C3F0640000ECE3 /* meals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446C83B629C3F0640000ECE3 /* meals.swift */; };
+		446C83BA29C3F0EA0000ECE3 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446C83B829C3F0EA0000ECE3 /* MealViewController.swift */; };
+		446C83BB29C3F0EA0000ECE3 /* MealViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 446C83B929C3F0EA0000ECE3 /* MealViewController.xib */; };
+		446C83BE29C3F22F0000ECE3 /* addMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446C83BC29C3F22F0000ECE3 /* addMealViewController.swift */; };
+		446C83BF29C3F22F0000ECE3 /* addMealViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 446C83BD29C3F22F0000ECE3 /* addMealViewController.xib */; };
+		44E4EF0A29C2B81C00CAF1A3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E4EF0829C2B81C00CAF1A3 /* MainViewController.swift */; };
+		44E4EF0B29C2B81C00CAF1A3 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E4EF0929C2B81C00CAF1A3 /* MainViewController.xib */; };
+		44E4EF0E29C3754E00CAF1A3 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E4EF0C29C3754E00CAF1A3 /* JournalViewController.swift */; };
+		44E4EF0F29C3754E00CAF1A3 /* JournalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E4EF0D29C3754E00CAF1A3 /* JournalViewController.xib */; };
+		44E4EF1229C3780300CAF1A3 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E4EF1029C3780300CAF1A3 /* EntryViewController.swift */; };
+		44E4EF1329C3780300CAF1A3 /* EntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E4EF1129C3780300CAF1A3 /* EntryViewController.xib */; };
+		44E4EF1829C3782B00CAF1A3 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E4EF1629C3782B00CAF1A3 /* NoteViewController.swift */; };
+		44E4EF1929C3782B00CAF1A3 /* NoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E4EF1729C3782B00CAF1A3 /* NoteViewController.xib */; };
+		44E4EF1B29C37A4800CAF1A3 /* workouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E4EF1A29C37A4800CAF1A3 /* workouts.swift */; };
+		44E4EF1E29C37CAC00CAF1A3 /* AddWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E4EF1C29C37CAC00CAF1A3 /* AddWorkoutViewController.swift */; };
+		44E4EF1F29C37CAC00CAF1A3 /* AddWorkoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E4EF1D29C37CAC00CAF1A3 /* AddWorkoutViewController.xib */; };
+		44E4EF2229C3AF4000CAF1A3 /* DetailedWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E4EF2029C3AF4000CAF1A3 /* DetailedWorkoutViewController.swift */; };
+		44E4EF2329C3AF4000CAF1A3 /* DetailedWorkoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E4EF2129C3AF4000CAF1A3 /* DetailedWorkoutViewController.xib */; };
+		AA6CAE4C29C55D0600738BBC /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6CAE4929C55CF600738BBC /* Charts.framework */; };
+		AA6CAE4D29C55D0600738BBC /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA6CAE4929C55CF600738BBC /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		444CB0C029C24178004527FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 444CB0A129C24177004527FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 444CB0A829C24177004527FF;
+			remoteInfo = FitTrack;
+		};
+		444CB0CA29C24178004527FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 444CB0A129C24177004527FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 444CB0A829C24177004527FF;
+			remoteInfo = FitTrack;
+		};
+		AA6CAE4829C55CF600738BBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6CAE4329C55CF600738BBC /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		AA6CAE4A29C55CF600738BBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6CAE4329C55CF600738BBC /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA7B8D2029C4E5A900733EFA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AA6CAE4D29C55D0600738BBC /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		444CB0A929C24177004527FF /* FitTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		444CB0AC29C24177004527FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		444CB0AE29C24177004527FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		444CB0B029C24177004527FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		444CB0B329C24177004527FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		444CB0B529C24178004527FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		444CB0B829C24178004527FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		444CB0BA29C24178004527FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		444CB0BF29C24178004527FF /* FitTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		444CB0C329C24178004527FF /* FitTrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitTrackTests.swift; sourceTree = "<group>"; };
+		444CB0C929C24178004527FF /* FitTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		444CB0CD29C24178004527FF /* FitTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitTrackUITests.swift; sourceTree = "<group>"; };
+		444CB0CF29C24178004527FF /* FitTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		446C83A129C3CB790000ECE3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = SOURCE_ROOT; };
+		446C83A229C3CB790000ECE3 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = SOURCE_ROOT; };
+		446C83A529C3CF5C0000ECE3 /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = SOURCE_ROOT; };
+		446C83A629C3CF5C0000ECE3 /* ProgressViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgressViewController.xib; sourceTree = SOURCE_ROOT; };
+		446C83B629C3F0640000ECE3 /* meals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meals.swift; sourceTree = "<group>"; };
+		446C83B829C3F0EA0000ECE3 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
+		446C83B929C3F0EA0000ECE3 /* MealViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MealViewController.xib; sourceTree = "<group>"; };
+		446C83BC29C3F22F0000ECE3 /* addMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addMealViewController.swift; sourceTree = "<group>"; };
+		446C83BD29C3F22F0000ECE3 /* addMealViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = addMealViewController.xib; sourceTree = "<group>"; };
+		44E4EF0829C2B81C00CAF1A3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		44E4EF0929C2B81C00CAF1A3 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		44E4EF0C29C3754E00CAF1A3 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		44E4EF0D29C3754E00CAF1A3 /* JournalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JournalViewController.xib; sourceTree = "<group>"; };
+		44E4EF1029C3780300CAF1A3 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		44E4EF1129C3780300CAF1A3 /* EntryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EntryViewController.xib; sourceTree = "<group>"; };
+		44E4EF1629C3782B00CAF1A3 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		44E4EF1729C3782B00CAF1A3 /* NoteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteViewController.xib; sourceTree = "<group>"; };
+		44E4EF1A29C37A4800CAF1A3 /* workouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workouts.swift; sourceTree = "<group>"; };
+		44E4EF1C29C37CAC00CAF1A3 /* AddWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutViewController.swift; sourceTree = "<group>"; };
+		44E4EF1D29C37CAC00CAF1A3 /* AddWorkoutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddWorkoutViewController.xib; sourceTree = "<group>"; };
+		44E4EF2029C3AF4000CAF1A3 /* DetailedWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedWorkoutViewController.swift; sourceTree = "<group>"; };
+		44E4EF2129C3AF4000CAF1A3 /* DetailedWorkoutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailedWorkoutViewController.xib; sourceTree = "<group>"; };
+		AA6CAE4329C55CF600738BBC /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		444CB0A629C24177004527FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6CAE4C29C55D0600738BBC /* Charts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		444CB0BC29C24178004527FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		444CB0C629C24178004527FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		444CB0A029C24177004527FF = {
+			isa = PBXGroup;
+			children = (
+				444CB0AB29C24177004527FF /* FitTrack */,
+				444CB0C229C24178004527FF /* FitTrackTests */,
+				444CB0CC29C24178004527FF /* FitTrackUITests */,
+				444CB0AA29C24177004527FF /* Products */,
+				446C83B229C3D2ED0000ECE3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		444CB0AA29C24177004527FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				444CB0A929C24177004527FF /* FitTrack.app */,
+				444CB0BF29C24178004527FF /* FitTrackTests.xctest */,
+				444CB0C929C24178004527FF /* FitTrackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		444CB0AB29C24177004527FF /* FitTrack */ = {
+			isa = PBXGroup;
+			children = (
+				446C83A529C3CF5C0000ECE3 /* ProgressViewController.swift */,
+				446C83A629C3CF5C0000ECE3 /* ProgressViewController.xib */,
+				446C83A129C3CB790000ECE3 /* ProfileViewController.swift */,
+				446C83A229C3CB790000ECE3 /* ProfileViewController.xib */,
+				444CB0AC29C24177004527FF /* AppDelegate.swift */,
+				44E4EF2029C3AF4000CAF1A3 /* DetailedWorkoutViewController.swift */,
+				44E4EF2129C3AF4000CAF1A3 /* DetailedWorkoutViewController.xib */,
+				44E4EF1D29C37CAC00CAF1A3 /* AddWorkoutViewController.xib */,
+				44E4EF1C29C37CAC00CAF1A3 /* AddWorkoutViewController.swift */,
+				444CB0AE29C24177004527FF /* SceneDelegate.swift */,
+				444CB0B029C24177004527FF /* ViewController.swift */,
+				444CB0B229C24177004527FF /* Main.storyboard */,
+				446C83BC29C3F22F0000ECE3 /* addMealViewController.swift */,
+				446C83BD29C3F22F0000ECE3 /* addMealViewController.xib */,
+				446C83B629C3F0640000ECE3 /* meals.swift */,
+				44E4EF0C29C3754E00CAF1A3 /* JournalViewController.swift */,
+				44E4EF1029C3780300CAF1A3 /* EntryViewController.swift */,
+				446C83B829C3F0EA0000ECE3 /* MealViewController.swift */,
+				446C83B929C3F0EA0000ECE3 /* MealViewController.xib */,
+				44E4EF1A29C37A4800CAF1A3 /* workouts.swift */,
+				44E4EF1629C3782B00CAF1A3 /* NoteViewController.swift */,
+				44E4EF1729C3782B00CAF1A3 /* NoteViewController.xib */,
+				44E4EF1129C3780300CAF1A3 /* EntryViewController.xib */,
+				44E4EF0D29C3754E00CAF1A3 /* JournalViewController.xib */,
+				44E4EF0829C2B81C00CAF1A3 /* MainViewController.swift */,
+				44E4EF0929C2B81C00CAF1A3 /* MainViewController.xib */,
+				444CB0B529C24178004527FF /* Assets.xcassets */,
+				444CB0B729C24178004527FF /* LaunchScreen.storyboard */,
+				AA6CAE4329C55CF600738BBC /* Charts.xcodeproj */,
+				444CB0BA29C24178004527FF /* Info.plist */,
+			);
+			path = FitTrack;
+			sourceTree = "<group>";
+		};
+		444CB0C229C24178004527FF /* FitTrackTests */ = {
+			isa = PBXGroup;
+			children = (
+				444CB0C329C24178004527FF /* FitTrackTests.swift */,
+			);
+			path = FitTrackTests;
+			sourceTree = "<group>";
+		};
+		444CB0CC29C24178004527FF /* FitTrackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				444CB0CD29C24178004527FF /* FitTrackUITests.swift */,
+				444CB0CF29C24178004527FF /* FitTrackUITestsLaunchTests.swift */,
+			);
+			path = FitTrackUITests;
+			sourceTree = "<group>";
+		};
+		446C83B229C3D2ED0000ECE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA6CAE4429C55CF600738BBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA6CAE4929C55CF600738BBC /* Charts.framework */,
+				AA6CAE4B29C55CF600738BBC /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		444CB0A829C24177004527FF /* FitTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 444CB0D329C24178004527FF /* Build configuration list for PBXNativeTarget "FitTrack" */;
+			buildPhases = (
+				444CB0A529C24177004527FF /* Sources */,
+				444CB0A629C24177004527FF /* Frameworks */,
+				444CB0A729C24177004527FF /* Resources */,
+				AA7B8D2029C4E5A900733EFA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitTrack;
+			productName = FitTrack;
+			productReference = 444CB0A929C24177004527FF /* FitTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		444CB0BE29C24178004527FF /* FitTrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 444CB0D629C24178004527FF /* Build configuration list for PBXNativeTarget "FitTrackTests" */;
+			buildPhases = (
+				444CB0BB29C24178004527FF /* Sources */,
+				444CB0BC29C24178004527FF /* Frameworks */,
+				444CB0BD29C24178004527FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				444CB0C129C24178004527FF /* PBXTargetDependency */,
+			);
+			name = FitTrackTests;
+			productName = FitTrackTests;
+			productReference = 444CB0BF29C24178004527FF /* FitTrackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		444CB0C829C24178004527FF /* FitTrackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 444CB0D929C24178004527FF /* Build configuration list for PBXNativeTarget "FitTrackUITests" */;
+			buildPhases = (
+				444CB0C529C24178004527FF /* Sources */,
+				444CB0C629C24178004527FF /* Frameworks */,
+				444CB0C729C24178004527FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				444CB0CB29C24178004527FF /* PBXTargetDependency */,
+			);
+			name = FitTrackUITests;
+			productName = FitTrackUITests;
+			productReference = 444CB0C929C24178004527FF /* FitTrackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		444CB0A129C24177004527FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					444CB0A829C24177004527FF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					444CB0BE29C24178004527FF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 444CB0A829C24177004527FF;
+					};
+					444CB0C829C24178004527FF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 444CB0A829C24177004527FF;
+					};
+				};
+			};
+			buildConfigurationList = 444CB0A429C24177004527FF /* Build configuration list for PBXProject "FitTrack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 444CB0A029C24177004527FF;
+			productRefGroup = 444CB0AA29C24177004527FF /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AA6CAE4429C55CF600738BBC /* Products */;
+					ProjectRef = AA6CAE4329C55CF600738BBC /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				444CB0A829C24177004527FF /* FitTrack */,
+				444CB0BE29C24178004527FF /* FitTrackTests */,
+				444CB0C829C24178004527FF /* FitTrackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AA6CAE4929C55CF600738BBC /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = AA6CAE4829C55CF600738BBC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AA6CAE4B29C55CF600738BBC /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = AA6CAE4A29C55CF600738BBC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		444CB0A729C24177004527FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E4EF1F29C37CAC00CAF1A3 /* AddWorkoutViewController.xib in Resources */,
+				446C83BB29C3F0EA0000ECE3 /* MealViewController.xib in Resources */,
+				446C83BF29C3F22F0000ECE3 /* addMealViewController.xib in Resources */,
+				444CB0B929C24178004527FF /* LaunchScreen.storyboard in Resources */,
+				444CB0B629C24178004527FF /* Assets.xcassets in Resources */,
+				44E4EF1929C3782B00CAF1A3 /* NoteViewController.xib in Resources */,
+				44E4EF0F29C3754E00CAF1A3 /* JournalViewController.xib in Resources */,
+				44E4EF2329C3AF4000CAF1A3 /* DetailedWorkoutViewController.xib in Resources */,
+				444CB0B429C24177004527FF /* Main.storyboard in Resources */,
+				446C83A829C3CF5C0000ECE3 /* ProgressViewController.xib in Resources */,
+				44E4EF0B29C2B81C00CAF1A3 /* MainViewController.xib in Resources */,
+				446C83A429C3CB790000ECE3 /* ProfileViewController.xib in Resources */,
+				44E4EF1329C3780300CAF1A3 /* EntryViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		444CB0BD29C24178004527FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		444CB0C729C24178004527FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		444CB0A529C24177004527FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E4EF1829C3782B00CAF1A3 /* NoteViewController.swift in Sources */,
+				444CB0B129C24177004527FF /* ViewController.swift in Sources */,
+				44E4EF1E29C37CAC00CAF1A3 /* AddWorkoutViewController.swift in Sources */,
+				446C83BA29C3F0EA0000ECE3 /* MealViewController.swift in Sources */,
+				446C83A729C3CF5C0000ECE3 /* ProgressViewController.swift in Sources */,
+				444CB0AD29C24177004527FF /* AppDelegate.swift in Sources */,
+				446C83B729C3F0640000ECE3 /* meals.swift in Sources */,
+				44E4EF2229C3AF4000CAF1A3 /* DetailedWorkoutViewController.swift in Sources */,
+				446C83BE29C3F22F0000ECE3 /* addMealViewController.swift in Sources */,
+				444CB0AF29C24177004527FF /* SceneDelegate.swift in Sources */,
+				446C83A329C3CB790000ECE3 /* ProfileViewController.swift in Sources */,
+				44E4EF0A29C2B81C00CAF1A3 /* MainViewController.swift in Sources */,
+				44E4EF0E29C3754E00CAF1A3 /* JournalViewController.swift in Sources */,
+				44E4EF1229C3780300CAF1A3 /* EntryViewController.swift in Sources */,
+				44E4EF1B29C37A4800CAF1A3 /* workouts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		444CB0BB29C24178004527FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				444CB0C429C24178004527FF /* FitTrackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		444CB0C529C24178004527FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				444CB0D029C24178004527FF /* FitTrackUITestsLaunchTests.swift in Sources */,
+				444CB0CE29C24178004527FF /* FitTrackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		444CB0C129C24178004527FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 444CB0A829C24177004527FF /* FitTrack */;
+			targetProxy = 444CB0C029C24178004527FF /* PBXContainerItemProxy */;
+		};
+		444CB0CB29C24178004527FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 444CB0A829C24177004527FF /* FitTrack */;
+			targetProxy = 444CB0CA29C24178004527FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		444CB0B229C24177004527FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				444CB0B329C24177004527FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		444CB0B729C24178004527FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				444CB0B829C24178004527FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		444CB0D129C24178004527FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		444CB0D229C24178004527FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		444CB0D429C24178004527FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitTrack/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewdlugosz.FitTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		444CB0D529C24178004527FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitTrack/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewdlugosz.FitTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		444CB0D729C24178004527FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewdlugosz.FitTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitTrack";
+			};
+			name = Debug;
+		};
+		444CB0D829C24178004527FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewdlugosz.FitTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitTrack";
+			};
+			name = Release;
+		};
+		444CB0DA29C24178004527FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewdlugosz.FitTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitTrack;
+			};
+			name = Debug;
+		};
+		444CB0DB29C24178004527FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewdlugosz.FitTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitTrack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		444CB0A429C24177004527FF /* Build configuration list for PBXProject "FitTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444CB0D129C24178004527FF /* Debug */,
+				444CB0D229C24178004527FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		444CB0D329C24178004527FF /* Build configuration list for PBXNativeTarget "FitTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444CB0D429C24178004527FF /* Debug */,
+				444CB0D529C24178004527FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		444CB0D629C24178004527FF /* Build configuration list for PBXNativeTarget "FitTrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444CB0D729C24178004527FF /* Debug */,
+				444CB0D829C24178004527FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		444CB0D929C24178004527FF /* Build configuration list for PBXNativeTarget "FitTrackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444CB0DA29C24178004527FF /* Debug */,
+				444CB0DB29C24178004527FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 444CB0A129C24177004527FF /* Project object */;
+}
